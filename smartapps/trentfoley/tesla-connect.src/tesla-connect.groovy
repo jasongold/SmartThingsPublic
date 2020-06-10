@@ -75,7 +75,7 @@ def getAccessToken() {
 }
 
 private convertEpochSecondsToDate(epoch) {
-	return new Date(epoch * 1000);
+	return new Date((long)epoch * 1000);
 }
 
 def refreshAccessToken() {
