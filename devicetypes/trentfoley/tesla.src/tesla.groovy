@@ -17,7 +17,7 @@ metadata {
 	definition (name: "Tesla", namespace: "trentfoley", author: "Trent Foley") {
 		capability "Actuator"
 		capability "Battery"
-		capability "Geolocation"
+// not supported	capability "Geolocation"
 		capability "Lock"
 		capability "Motion Sensor"
 		capability "Presence Sensor"
